@@ -29,14 +29,14 @@ const PostSchema = new mongoose.Schema({
     type: Date,
     default: Date.now,
   },
-  price: {
-    type: Number,
-    required: true,
-  },
-  price: {
-    type: Number,
-    required: true,
-  },
+  // price: {
+  //   type: Number,
+  //   required: true,
+  // },
+  // price: {
+  //   type: Number,
+  //   required: true,
+  // },
 });
 
 module.exports = mongoose.model("Post", PostSchema);
